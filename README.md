@@ -2,11 +2,11 @@
 
 Project Implementation Detail:
 
-Backend: PHP <br>
-Database: MYSQL <br>
-Frontend: HTML, CSS <br>
-Operating system: Windows <br>
-Local server : Xampp <br>
+	Backend: PHP <br>
+	Database: MYSQL <br>
+	Frontend: HTML, CSS <br>
+	Operating system: Windows <br>
+	Local server : Xampp <br>
 _________________________________________________________________________________________
 _________________________________________________________________________________________
 
@@ -23,29 +23,30 @@ Step-1: Download the project file from github and extract the zip file, move the
 _________________________________________________________________________________________
 
 Step-2: In Xampp phpmyadmin create the database rbrajat, and make 2 tables - `users` and `grantdata`
-users
-  `id` int(50) Primary AUTO_INCREMENT,
-  `userName` varchar(50) DEFAULT NONE,
-  `password` varchar(50) DEFAULT NONE,
-  `firstName` varchar(50) DEFAULT NONE,
-  `lastName` varchar(50) DEFAULT NONE,
-  `gender` varchar(10) DEFAULT NONE,
-  `role` varchar(20) DEFAULT NONE,
-  `presentLimit` int(50) DEFAULT NONE,
-  `grantMoneyLeft` int(50) DEFAULT NONE,
-  `numberOfGrantsRequested` int(50) DEFAULT NONE,
+
+	users
+	`id` int(50) Primary AUTO_INCREMENT,
+	`userName` varchar(50) DEFAULT NONE,
+	`password` varchar(50) DEFAULT NONE,
+	`firstName` varchar(50) DEFAULT NONE,
+	`lastName` varchar(50) DEFAULT NONE,
+	`gender` varchar(10) DEFAULT NONE,
+	`role` varchar(20) DEFAULT NONE,
+	`presentLimit` int(50) DEFAULT NONE,
+	`grantMoneyLeft` int(50) DEFAULT NONE,
+	`numberOfGrantsRequested` int(50) DEFAULT NONE,
   
-grantdata
-  `id` int(50) Primary AUTO_INCREMENT,
-  `grantId` varchar(50) DEFAULT NONE,
-  `userName` varchar(50) DEFAULT NONE,
-  `grantType` varchar(50) DEFAULT NONE,
-  `grantMoney` int(50) DEFAULT NONE,
-  `grantFileSize` int(50) DEFAULT NONE,
-  `grantStatus` varchar(50) DEFAULT NONE,
-  `requestTime` varchar(50) DEFAULT NONE,
-  `decisionTime` varchar(50) DEFAULT NONE,
-  `moneyGiven` int(10) DEFAULT 0,  
+	grantdata
+	  `id` int(50) Primary AUTO_INCREMENT,
+	  `grantId` varchar(50) DEFAULT NONE,
+	  `userName` varchar(50) DEFAULT NONE,
+	  `grantType` varchar(50) DEFAULT NONE,
+	  `grantMoney` int(50) DEFAULT NONE,
+	  `grantFileSize` int(50) DEFAULT NONE,
+	  `grantStatus` varchar(50) DEFAULT NONE,
+	  `requestTime` varchar(50) DEFAULT NONE,
+	  `decisionTime` varchar(50) DEFAULT NONE,
+	  `moneyGiven` int(10) DEFAULT 0,  
 _________________________________________________________________________________________
 
 Step-3 : You will not need to modify php.ini file because all the variables are set according to defaults of php.ini
